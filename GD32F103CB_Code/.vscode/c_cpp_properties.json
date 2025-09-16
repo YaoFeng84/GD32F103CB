@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../**",
+                "${workspaceFolder}/CommHead",
+                "${workspaceFolder}/CommHead/CMSIS",
+                "${workspaceFolder}/CommHead/Peripheral",
+                "${workspaceFolder}/CommHead/USB"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "GD32F10X_MD"
+            ],
+            "compilerPath": "F:\\YF\\MyTools\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

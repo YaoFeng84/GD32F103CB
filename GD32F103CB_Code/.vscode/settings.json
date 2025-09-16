@@ -1,0 +1,5 @@
+{
+    "files.encoding": "gb2312",//默认字符编码
+    "editor.insertSpaces": true,//使用空格缩进
+    "editor.tabSize": 5//默认缩进5个空格
+}
