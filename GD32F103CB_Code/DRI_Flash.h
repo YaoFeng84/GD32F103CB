@@ -22,18 +22,17 @@ extern "C" {
             无
 * 例     如:
 * 修改记录:
-*           2025-09-01 BY:YJX
+*           2025-09-01 BY:
 ***************************************************************************/
 extern s32 DRI_Flash_ReadData(u32 radd,u8 *rd,u16 rl);
 
 /***************************************************************************
 * 函 数 名: DRI_Flash_DirectWriteData
 * 功能描述：Flash 阻塞型直写数据函数(不擦除直接写入)
-*          支持任意地址任意大小的写入
 * 入口参数：
-            u32 wadd:写地址
+            u32 wadd:写地址(需要4字节对齐)
             u8 *wd:数据源首地址
-            u16 wl:写字节数
+            u16 wl:写字节数(需要4字节对齐)
 * 出口参数：
        其他值:实际写字节数
         小于0:操作失败
@@ -41,7 +40,7 @@ extern s32 DRI_Flash_ReadData(u32 radd,u8 *rd,u16 rl);
             不擦除直接写入!!!
 * 例   如:
 * 修改记录:
-*           2025-09-01 BY:YJX
+*           2025-09-19 BY:
 ***************************************************************************/
 extern s32 DRI_Flash_DirectWriteData(u32 wadd,u8 *wd,u16 wl);
 
@@ -51,7 +50,7 @@ extern s32 DRI_Flash_DirectWriteData(u32 wadd,u8 *wd,u16 wl);
 extern s8 DRI_Flash_IsSectorAligned(u32 addr);
 
 /// @brief 擦除eaddr所在的整个扇区的函数
-/// @param eaddr ：要擦除的地址
+/// @param eaddr ：要擦除的扇区起始地址（需要扇区对齐！！！）
 /// @return ：小于0:擦除失败 其他值：实际擦除字节数 
 extern s32 DRI_Flash_EraseSector(u32 eaddr);
 
@@ -60,28 +59,26 @@ extern s32 DRI_Flash_EraseSector(u32 eaddr);
 * 函 数 名: DRI_Flash_Erase
 * 功能描述：Flash 阻塞型 空间擦除函数
 * 入口参数：
-            u32 eaddr：擦除起始地址
-            u32 esize：擦除字节数
+            u32 eaddr：擦除起始地址(需要4字节对齐)
+            u32 esize：擦除字节数(需要4字节对齐)
 * 出口参数：
        其他值:实际擦除字节数
         小于0:擦除失败
 * 注意事项:
-        支持任意地址任意大小的擦除
         如果地址和大小都是1024字节对齐，则栈空间不会被占用1024字节，否则栈空间会占用1024字节
 * 例    如:
 * 修改记录:
-*           2025-09-01 BY:YJX
+*           2025-09-01 BY:
 ***************************************************************************/
 extern s32 DRI_Flash_Erase(u32 eaddr,u32 esize);
 
 /**
  * @brief DRI_Flash_EraseWriteData
  * Flash 阻塞型擦写数据函数(先擦除再写入)
- * 支持任意地址任意大小的写入
  * 如果地址和大小都是1024字节对齐，则栈空间不会被占用1024字节，否则栈空间会占用1024字节
- * @param wadd 写入地址
+ * @param wadd 写入地址(需要4字节对齐)
  * @param wd 待写入数据首地址
- * @param wl 待写入数据字节数
+ * @param wl 待写入数据字节数(需要4字节对齐)
  * @return s32 小于0:写失败，其他值:实际写入字节数
  */
 extern s32 DRI_Flash_EraseWriteData(u32 wadd,u8 *wd,u32 wl);

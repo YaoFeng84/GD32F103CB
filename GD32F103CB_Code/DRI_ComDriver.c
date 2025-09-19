@@ -36,7 +36,7 @@ extern void USBD_LP_IRQHandler(void);
 *               ----------------------------------以下是模块的变量申明和宏定义区--------------------------------                      *
 *                                                                                                                                           *
 ********************************************************************************************************************************************/
-#define INTMaxNUM        90  //GD32F450VK最大中断号
+#define INTMaxNUM        48  //GD32F103CB最大中断号
 
 static DRI_ComDriver_DoubleVoidFuncType HardFaultIntterrupt_FCB = NULL;
 /********************************************************************************************************************************************
@@ -72,7 +72,7 @@ void NULLFP(void)
 
 u8* DRI_ComDriver_OutVersion(void)
 {
-     return (u8*)"V1.01.250915";
+     return (u8*)"V1.02.250919";
 }
 
 //返回芯片Flash空间大小，单位：字节
@@ -173,7 +173,7 @@ void DRI_ComDriver_SetSP(u32 _sp)
 void DRI_ComDriver_DisableAllPeripheralInterrupt(void)
 {
      u8 in;
-     //关闭所有外设中断(注意，此处90对应GD32F450VK芯片外设中断号的最大值，不同芯片可能不一样)
+     //关闭所有外设中断(注意，不同芯片INTMaxNUM可能不一样)
      for(in = 0;in <= INTMaxNUM;in++)
      {
           NVIC_DisableIRQ((IRQn_Type)in);
@@ -203,7 +203,8 @@ void DRI_ComDriver_ResetAllPeripheral(void)
 //开启总中断C语言写法
 /***************************************************************************
 * 函 数 名: DRI_ComDriver_EnableAllINT
-* 功能描述：使能外设总中断 函数
+* 功能描述：使能总中断 函数
+           允许所有中断（包括外设和内核中断（如SysTick、PendSV））正常响应。
 * 入口参数：
             无
 * 出口参数：
@@ -229,7 +230,8 @@ void DRI_ComDriver_EnableAllINT(void)
 //关闭总中断C语言写法
 /***************************************************************************
 * 函 数 名: DRI_ComDriver_DisableAllINT
-* 功能描述：禁能外设总中断 函数
+* 功能描述：禁能总中断 函数
+           屏蔽所有可屏蔽中断（包括外设中断和内核中断（如SysTick、PendSV）），仅允许NMI（不可屏蔽中断）和系统异常（如HardFault）响应。
 * 入口参数：
             无
 * 出口参数：

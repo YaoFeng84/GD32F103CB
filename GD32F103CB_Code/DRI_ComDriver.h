@@ -104,7 +104,8 @@ extern void DRI_ComDriver_ResetAllPeripheral(void);
 
 /***************************************************************************
 * 函 数 名: DRI_ComDriver_EnableAllINT
-* 功能描述：使能外设总中断 函数
+* 功能描述：使能总中断 函数
+           允许所有中断（包括外设和内核中断（如SysTick、PendSV））正常响应。
 * 入口参数：
             无
 * 出口参数：
@@ -119,7 +120,8 @@ extern void DRI_ComDriver_EnableAllINT(void);
 
 /***************************************************************************
 * 函 数 名: DRI_ComDriver_DisableAllINT
-* 功能描述：禁能外设总中断 函数
+* 功能描述：禁能总中断 函数
+           屏蔽所有可屏蔽中断（包括外设中断和内核中断（如SysTick、PendSV）），仅允许NMI（不可屏蔽中断）和系统异常（如HardFault）响应。
 * 入口参数：
             无
 * 出口参数：

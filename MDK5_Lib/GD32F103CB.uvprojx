@@ -588,6 +588,11 @@
               <FileType>1</FileType>
               <FilePath>..\GD32F103CB_Code\DRI_USB.c</FilePath>
             </File>
+            <File>
+              <FileName>DRI_DriverTest.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GD32F103CB_Code\DRI_DriverTest.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

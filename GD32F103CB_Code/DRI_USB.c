@@ -584,7 +584,10 @@ void USBD_LP_IRQHandler(void)
 //uf = 0:断开 =非0:连接
 void USBD_PullUp(u8 uf)
 {
-     PullUpCtrlFunc(uf);
+     if(PullUpCtrlFunc)
+     {
+          PullUpCtrlFunc(uf);
+     }     
 }
 
 //----------------------------------------------------------------------------------------
@@ -607,8 +610,8 @@ u8 *DRI_USB_dev_desc_get(usb_dev *udev, u8 index, u16 *len)
                     0xff,0xff};//wLength
      //printf("设备描述符:\r\n");
      *len = 0;
-     u16temp = UsbEnumDataSendBufferMaxSize;     
-     s8temp = P0SetupProcess(UsbCmd,sizeof(UsbCmd),UsbEnumDataSendBuffer,&u16temp);     
+     u16temp = UsbEnumDataSendBufferMaxSize;
+     s8temp = P0SetupProcess(UsbCmd,sizeof(UsbCmd),UsbEnumDataSendBuffer,&u16temp);
      if(s8temp == 1)
      {//有待发送的数据
           *len = u16temp;  
