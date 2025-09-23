@@ -140,21 +140,26 @@ s8 DRI_USART0_Config(DRI_USARTCnfType *cnfp)
      //
      NVIC_DisableIRQ(USART0_IRQn);//禁止中断，防止配置过程中产生中断
      //
-     //使能GPIOA时钟
-     rcu_periph_clock_enable(RCU_GPIOA);
+
+     switch(cnfp->PinSelect)
+     {
+          case USART0_RX_PA10_TX_PA9:
+               //使能GPIOA时钟
+               rcu_periph_clock_enable(RCU_GPIOA);              
+               //PA9 Tx引脚配置
+               //PA9引脚复用功能配置
+               gpio_init(GPIOA, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_9);
+               //PA10 Rx引脚配置
+               //PA10引脚复用功能配置
+               gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_10);
+               break;
+          default:
+               return -1;
+     }    
+
      //使能USART0时钟
      rcu_periph_clock_enable(RCU_USART0);
-
-     //PA9 Tx引脚配置
-     //PA9引脚复用功能配置
-     gpio_init(GPIOA, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_9);
-
-     //PA10 Rx引脚配置
-     //PA10引脚复用功能配置
-     gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_10);
-
-
-
+     //
      RHWFC0.FEnable = cnfp->rhwfc.FEnable;
      RHWFC0.RFlowcontroln = cnfp->rhwfc.RFlowcontroln;
      RHWFC0.RFlowcontrolp = cnfp->rhwfc.RFlowcontrolp;

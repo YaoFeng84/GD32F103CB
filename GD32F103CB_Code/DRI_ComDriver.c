@@ -72,7 +72,7 @@ void NULLFP(void)
 
 u8* DRI_ComDriver_OutVersion(void)
 {
-     return (u8*)"V1.02.250919";
+     return (u8*)"V1.03.250923";
 }
 
 //返回芯片Flash空间大小，单位：字节
@@ -359,6 +359,7 @@ void __asm NVIC_CoreReset_a(void)
 /***************************************************************************
 * 函 数 名: DRI_ComDriver_SysReset
 * 功能描述：外设复位 函数
+          相当于 NVIC_SystemReset();
 * 入口参数：
             无
 * 出口参数：

@@ -391,6 +391,12 @@ static u16 Flash_WriteData(u32 wadd,u8 *wd,u16 wl)
 {
      u16 u16temp,u16num;
 
+     //判断地址 和 长度是否4字节对齐
+     if((wadd % 4) || (wl % 4) || (wl == 0))
+     {
+          return 0;
+     }
+
      fmc_unlock();
 
      fmc_flag_clear(FMC_FLAG_BANK0_END);

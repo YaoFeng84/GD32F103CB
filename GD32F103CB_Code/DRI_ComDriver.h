@@ -182,6 +182,7 @@ extern void DRI_ComDriver_CoreReset(void);
 /***************************************************************************
 * 函 数 名: DRI_ComDriver_SysReset
 * 功能描述：外设复位 函数
+          相当于 NVIC_SystemReset();
 * 入口参数：
             无
 * 出口参数：

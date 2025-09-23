@@ -29,6 +29,11 @@ typedef enum
      ParityOdd = 2u,//奇校验
 }ParityType;
 
+typedef enum
+{
+     USART0_RX_PA10_TX_PA9 = 1,
+}DRI_UART_PinSelectEnm;//UART引脚选择
+
 typedef struct
 {
      u8 FEnable;              //接收硬流控使能位(0:禁用 非0:使用)
@@ -48,6 +53,8 @@ typedef struct
      RHWFlowCrl rhwfc;   //接收硬流控
 //---中断配置
      u8 IntPri;        //串口中断优先级(0~15，越小优先级越高，超过范围禁止中断)
+//---引脚选择
+     DRI_UART_PinSelectEnm PinSelect;//引脚选择
 //---接收部分
      void (*Recfp)(u8);  //接收到数据回调函数指针
      u8 RecData_IntEnable;//接收数据中断使能(0:禁止 非0:使能)
