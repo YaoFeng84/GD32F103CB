@@ -2840,8 +2840,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-nam5jh"
-      binary: "F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-nam5jh"
+      source: "F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-enrmbx"
+      binary: "F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-enrmbx"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2850,13 +2850,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-nam5jh'
+        Change Dir: 'F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-enrmbx'
         
-        Run Build Command(s): F:/YF/MyTools/MyBin/cmake-4.1.0-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 F:/YF/MyTools/MyBin/make-3.81-bin/bin/make.exe -f Makefile cmTC_8944e/fast
-        F:/YF/MyTools/MyBin/make-3.81-bin/bin/make.exe  -f CMakeFiles/cmTC_8944e.dir/build.make CMakeFiles/cmTC_8944e.dir/build
-        make.exe[1]: Entering directory `F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-nam5jh'
-        Building C object CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj
-        F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj -c F:/YF/MyTools/MyBin/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): F:/YF/MyTools/MyBin/cmake-4.1.0-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 F:/YF/MyTools/MyBin/make-3.81-bin/bin/make.exe -f Makefile cmTC_09160/fast
+        F:/YF/MyTools/MyBin/make-3.81-bin/bin/make.exe  -f CMakeFiles/cmTC_09160.dir/build.make CMakeFiles/cmTC_09160.dir/build
+        make.exe[1]: Entering directory `F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-enrmbx'
+        Building C object CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj
+        F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj -c F:/YF/MyTools/MyBin/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -2864,8 +2864,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix f:\\yf\\mytools\\mybin\\gcc-arm-none-eabi-10.3-2021.10-win32\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\yf\\mytools\\mybin\\gcc-arm-none-eabi-10.3-2021.10-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:/YF/MyTools/MyBin/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\ykzq0\\AppData\\Local\\Temp\\ccUqlhSZ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix f:\\yf\\mytools\\mybin\\gcc-arm-none-eabi-10.3-2021.10-win32\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\yf\\mytools\\mybin\\gcc-arm-none-eabi-10.3-2021.10-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:/YF/MyTools/MyBin/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\ykzq0\\AppData\\Local\\Temp\\ccwhIewa.s
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -2886,14 +2886,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj C:\\Users\\ykzq0\\AppData\\Local\\Temp\\ccUqlhSZ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj C:\\Users\\ykzq0\\AppData\\Local\\Temp\\ccwhIewa.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-        Linking C executable cmTC_8944e
-        F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe  -v "CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj"  -o cmTC_8944e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking C executable cmTC_09160
+        F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe  -v "CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj"  -o cmTC_09160
         Using built-in specs.
         COLLECT_GCC=F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe
         COLLECT_LTO_WRAPPER=f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
@@ -2904,14 +2904,14 @@ events:
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
         COMPILER_PATH=f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8944e' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ykzq0\\AppData\\Local\\Temp\\cc8FIKyk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=f:\\yf\\mytools\\mybin\\gcc-arm-none-eabi-10.3-2021.10-win32\\bin\\../arm-none-eabi -X -o cmTC_8944e f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../arm-none-eabi/lib CMakeFiles/cmTC_8944e.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_09160' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ykzq0\\AppData\\Local\\Temp\\cchLuXsj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=f:\\yf\\mytools\\mybin\\gcc-arm-none-eabi-10.3-2021.10-win32\\bin\\../arm-none-eabi -X -o cmTC_09160 f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lf:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../arm-none-eabi/lib CMakeFiles/cmTC_09160.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
         f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: f:/yf/mytools/mybin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
         exit.c:(.text.exit+0x2c): undefined reference to `_exit'
         collect2.exe: error: ld returned 1 exit status
-        make.exe[1]: *** [cmTC_8944e] 错误 1
-        make.exe[1]: Leaving directory `F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-nam5jh'
-        make.exe: *** [cmTC_8944e/fast] 错误 2
+        make.exe[1]: *** [cmTC_09160] 错误 1
+        make.exe[1]: Leaving directory `F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles/CMakeScratch/TryCompile-enrmbx'
+        make.exe: *** [cmTC_09160/fast] 错误 2
         
       exitCode: 2
 ...

@@ -222,29 +222,13 @@ typedef enum
      GP15 = 15u
 }PinNum;
 
-
-
 typedef enum
 {
      GDOut = 0u,//数字输出
      GDIn = 1u  //数字输入
 }PinMode;
 
-typedef enum
-{
-     ITFallEdge = 0u,//下降沿
-     ITRiseEdge = 1u,//上升沿
-     ITBothEdg = 2u //双边沿
-}INTTriggerMode;//触发模式枚举
 
-typedef struct
-{
-     PortNum portn;      //外部中断端口号
-     PinNum pinn;        //外部中断引脚号
-     INTTriggerMode tm;  //触发模式
-     u8 pri;             //中断优先级(0~15，越小优先级越高)
-     void (*cbfp)(void); //中断回调函数指针
-}ExIntCnfType;
 
 
 

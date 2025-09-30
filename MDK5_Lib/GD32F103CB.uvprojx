@@ -593,6 +593,26 @@
               <FileType>1</FileType>
               <FilePath>..\GD32F103CB_Code\DRI_DriverTest.c</FilePath>
             </File>
+            <File>
+              <FileName>DRI_CAN.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GD32F103CB_Code\DRI_CAN.c</FilePath>
+            </File>
+            <File>
+              <FileName>DRI_ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GD32F103CB_Code\DRI_ADC.c</FilePath>
+            </File>
+            <File>
+              <FileName>DRI_ExINT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GD32F103CB_Code\DRI_ExINT.c</FilePath>
+            </File>
+            <File>
+              <FileName>DRI_SPIn.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GD32F103CB_Code\DRI_SPIn.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

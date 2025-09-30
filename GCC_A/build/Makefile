@@ -862,6 +862,54 @@ F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/system_gd32f10x.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/system_gd32f10x.c.s
 .PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/system_gd32f10x.c.s
 
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.obj: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.obj
+
+# target to build an object file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.i: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.i
+
+# target to preprocess a source file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.i
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.s: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.s
+
+# target to generate assembly for a file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.s
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.obj: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.obj
+
+# target to build an object file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.i: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.i
+
+# target to preprocess a source file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.i
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.s: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.s
+
+# target to generate assembly for a file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.s
+
 F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.obj: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj
 .PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.obj
 
@@ -934,6 +982,30 @@ F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.s
 .PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.s
 
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.obj: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.obj
+
+# target to build an object file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.i: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.i
+
+# target to preprocess a source file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.i
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.s: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.s
+
+# target to generate assembly for a file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.s
+
 F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.obj: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj
 .PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.obj
 
@@ -1005,6 +1077,30 @@ F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.s: F_/YF/MyTools/MyCo
 F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.s
 .PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.s
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.obj: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.obj
+
+# target to build an object file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.i: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.i
+
+# target to preprocess a source file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.i
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.i
+
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.s: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.s
+
+# target to generate assembly for a file
+F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GD32F103CB.dir/build.make CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.s
+.PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.s
 
 F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.obj: F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj
 .PHONY : F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.obj
@@ -1178,6 +1274,12 @@ help:
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/system_gd32f10x.obj"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/system_gd32f10x.i"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/system_gd32f10x.s"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.obj"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.i"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.s"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.obj"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.i"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.s"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.obj"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.i"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.s"
@@ -1187,6 +1289,9 @@ help:
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.obj"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.i"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.s"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.obj"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.i"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.s"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.obj"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.i"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.s"
@@ -1196,6 +1301,9 @@ help:
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.obj"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.i"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.s"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.obj"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.i"
+	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.s"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.obj"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.i"
 	@echo "... F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.s"

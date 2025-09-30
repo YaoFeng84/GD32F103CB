@@ -492,24 +492,10 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/Com
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_transc.c.s"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_transc.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_transc.c.s
 
-CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
-CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c
-CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj"
-	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c
-
-CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.i"
-	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c > CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.i
-
-CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.s"
-	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.s
-
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.i: cmake_force
@@ -523,7 +509,7 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.i: cmake_force
@@ -537,7 +523,7 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.i: cmake_force
@@ -551,7 +537,7 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_GPIO.c.i: cmake_force
@@ -565,7 +551,7 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.i: cmake_force
@@ -579,7 +565,7 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.i: cmake_force
@@ -593,7 +579,7 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.i: cmake_force
@@ -603,6 +589,20 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.s"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.s
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.i"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c > CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.i
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.s"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.s
 
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c
@@ -617,6 +617,62 @@ CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI
 CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.s"
 	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.s
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.i"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c > CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.i
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.s"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.s
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.i"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c > CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.i
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.s"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.s
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.i"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c > CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.i
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.s"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.s
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj: CMakeFiles/GD32F103CB.dir/flags.make
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj: F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj: CMakeFiles/GD32F103CB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj -MF CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj.d -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj -c F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.i"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c > CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.i
+
+CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.s"
+	F:/YF/MyTools/MyBin/gcc-arm-none-eabi-10.3-2021.10-win32/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c -o CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.s
 
 # Object files for target GD32F103CB
 GD32F103CB_OBJECTS = \
@@ -650,7 +706,6 @@ GD32F103CB_OBJECTS = \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_lld_int.c.obj" \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_pwr.c.obj" \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_transc.c.obj" \
-"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj" \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj" \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj" \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj" \
@@ -658,7 +713,12 @@ GD32F103CB_OBJECTS = \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj" \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj" \
 "CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj" \
-"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.obj"
+"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj" \
+"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.obj" \
+"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj" \
+"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj" \
+"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj" \
+"CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj"
 
 # External object files for target GD32F103CB
 GD32F103CB_EXTERNAL_OBJECTS =
@@ -693,7 +753,6 @@ F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_lld_int.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_pwr.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/CommSrc/USB/usbd_transc.c.obj
-F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ComDriver.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_DriverTest.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Flash.c.obj
@@ -701,10 +760,15 @@ F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_RCU.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_Systick.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USARTn.c.obj
+F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CLK.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_USB.c.obj
+F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_CAN.c.obj
+F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ADC.c.obj
+F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_ExINT.c.obj
+F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/F_/YF/MyTools/MyCodeLib/GD32F103CB/GD32F103CB_Code/DRI_SPIn.c.obj
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/build.make
 F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a: CMakeFiles/GD32F103CB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C static library F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C static library F:/YF/MyTools/MyCodeLib/GD32F103CB/GCC_A/bin/GD32F103CB.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/GD32F103CB.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GD32F103CB.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Process SUCCESS !!!!!!!!!!!!!"

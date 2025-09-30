@@ -198,6 +198,7 @@ s8 DRI_USB_Config(DRI_USBCnfType *cnfp)
      P0OutProcess = cnfp->P0OutProcess;
      PullUpCtrlFunc = cnfp->PullUpFunc;
 //---------------------
+     gpio_init(GPIOA, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_11 | GPIO_PIN_12); //PA11/PA12
      //usbd_disconnect(&usb_device);
 
      /* USB device configuration */

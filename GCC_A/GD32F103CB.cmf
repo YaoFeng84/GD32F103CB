@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Parameters>
+  <IDEVer>
+    <Parameter Name="P0" Value0="V1_1" />
+  </IDEVer>
   <ProJ>
     <Parameter Name="P0" Value0="项目名称" Value1="GD32F103CB" />
     <Parameter Name="P1" Value0="编译平台" Value1="Windows系统" />
@@ -22,53 +25,57 @@
     <Parameter Name="P5" Value0="宏定义" Value1="-DUSE_STDPERIPH_DRIVER" />
   </Module_Item>
   <File_Src>
-    <Parameter Name="P0" Value0="..\GD32F103CB_Code\CommSrc\system_gd32f10x.c" />
-    <Parameter Name="P1" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_adc.c" />
-    <Parameter Name="P2" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_bkp.c" />
-    <Parameter Name="P3" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_can.c" />
-    <Parameter Name="P4" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_crc.c" />
-    <Parameter Name="P5" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_dac.c" />
-    <Parameter Name="P6" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_dbg.c" />
-    <Parameter Name="P7" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_dma.c" />
-    <Parameter Name="P8" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_enet.c" />
-    <Parameter Name="P9" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_exmc.c" />
-    <Parameter Name="P10" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_exti.c" />
-    <Parameter Name="P11" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_fmc.c" />
-    <Parameter Name="P12" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_fwdgt.c" />
-    <Parameter Name="P13" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_gpio.c" />
-    <Parameter Name="P14" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_i2c.c" />
-    <Parameter Name="P15" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_misc.c" />
-    <Parameter Name="P16" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_pmu.c" />
-    <Parameter Name="P17" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_rcu.c" />
-    <Parameter Name="P18" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_rtc.c" />
-    <Parameter Name="P19" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_sdio.c" />
-    <Parameter Name="P20" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_spi.c" />
-    <Parameter Name="P21" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_timer.c" />
-    <Parameter Name="P22" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_usart.c" />
-    <Parameter Name="P23" Value0="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_wwdgt.c" />
-    <Parameter Name="P24" Value0="..\GD32F103CB_Code\CommSrc\USB\usbd_core.c" />
-    <Parameter Name="P25" Value0="..\GD32F103CB_Code\CommSrc\USB\usbd_enum.c" />
-    <Parameter Name="P26" Value0="..\GD32F103CB_Code\CommSrc\USB\usbd_lld_core.c" />
-    <Parameter Name="P27" Value0="..\GD32F103CB_Code\CommSrc\USB\usbd_lld_int.c" />
-    <Parameter Name="P28" Value0="..\GD32F103CB_Code\CommSrc\USB\usbd_pwr.c" />
-    <Parameter Name="P29" Value0="..\GD32F103CB_Code\CommSrc\USB\usbd_transc.c" />
-    <Parameter Name="P30" Value0="..\GD32F103CB_Code\DRI_CLK.c" />
-    <Parameter Name="P31" Value0="..\GD32F103CB_Code\DRI_ComDriver.c" />
-    <Parameter Name="P32" Value0="..\GD32F103CB_Code\DRI_DriverTest.c" />
-    <Parameter Name="P33" Value0="..\GD32F103CB_Code\DRI_Flash.c" />
-    <Parameter Name="P34" Value0="..\GD32F103CB_Code\DRI_GPIO.c" />
-    <Parameter Name="P35" Value0="..\GD32F103CB_Code\DRI_RCU.c" />
-    <Parameter Name="P36" Value0="..\GD32F103CB_Code\DRI_Systick.c" />
-    <Parameter Name="P37" Value0="..\GD32F103CB_Code\DRI_USARTn.c" />
-    <Parameter Name="P38" Value0="..\GD32F103CB_Code\DRI_USB.c" />
+    <Parameter Name="P0" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\system_gd32f10x.c" />
+    <Parameter Name="P1" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_adc.c" />
+    <Parameter Name="P2" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_bkp.c" />
+    <Parameter Name="P3" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_can.c" />
+    <Parameter Name="P4" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_crc.c" />
+    <Parameter Name="P5" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_dac.c" />
+    <Parameter Name="P6" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_dbg.c" />
+    <Parameter Name="P7" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_dma.c" />
+    <Parameter Name="P8" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_enet.c" />
+    <Parameter Name="P9" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_exmc.c" />
+    <Parameter Name="P10" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_exti.c" />
+    <Parameter Name="P11" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_fmc.c" />
+    <Parameter Name="P12" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_fwdgt.c" />
+    <Parameter Name="P13" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_gpio.c" />
+    <Parameter Name="P14" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_i2c.c" />
+    <Parameter Name="P15" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_misc.c" />
+    <Parameter Name="P16" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_pmu.c" />
+    <Parameter Name="P17" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_rcu.c" />
+    <Parameter Name="P18" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_rtc.c" />
+    <Parameter Name="P19" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_sdio.c" />
+    <Parameter Name="P20" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_spi.c" />
+    <Parameter Name="P21" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_timer.c" />
+    <Parameter Name="P22" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_usart.c" />
+    <Parameter Name="P23" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\Peripheral\gd32f10x_wwdgt.c" />
+    <Parameter Name="P24" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\USB\usbd_core.c" />
+    <Parameter Name="P25" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\USB\usbd_enum.c" />
+    <Parameter Name="P26" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\USB\usbd_lld_core.c" />
+    <Parameter Name="P27" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\USB\usbd_lld_int.c" />
+    <Parameter Name="P28" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\USB\usbd_pwr.c" />
+    <Parameter Name="P29" Value0="True" Value1="..\GD32F103CB_Code\CommSrc\USB\usbd_transc.c" />
+    <Parameter Name="P30" Value0="True" Value1="..\GD32F103CB_Code\DRI_ComDriver.c" />
+    <Parameter Name="P31" Value0="True" Value1="..\GD32F103CB_Code\DRI_DriverTest.c" />
+    <Parameter Name="P32" Value0="True" Value1="..\GD32F103CB_Code\DRI_Flash.c" />
+    <Parameter Name="P33" Value0="True" Value1="..\GD32F103CB_Code\DRI_GPIO.c" />
+    <Parameter Name="P34" Value0="True" Value1="..\GD32F103CB_Code\DRI_RCU.c" />
+    <Parameter Name="P35" Value0="True" Value1="..\GD32F103CB_Code\DRI_Systick.c" />
+    <Parameter Name="P36" Value0="True" Value1="..\GD32F103CB_Code\DRI_USARTn.c" />
+    <Parameter Name="P37" Value0="True" Value1="..\GD32F103CB_Code\DRI_CLK.c" />
+    <Parameter Name="P38" Value0="True" Value1="..\GD32F103CB_Code\DRI_USB.c" />
+    <Parameter Name="P39" Value0="True" Value1="..\GD32F103CB_Code\DRI_CAN.c" />
+    <Parameter Name="P40" Value0="True" Value1="..\GD32F103CB_Code\DRI_ADC.c" />
+    <Parameter Name="P41" Value0="True" Value1="..\GD32F103CB_Code\DRI_ExINT.c" />
+    <Parameter Name="P42" Value0="True" Value1="..\GD32F103CB_Code\DRI_SPIn.c" />
   </File_Src>
   <File_H>
-    <Parameter Name="P0" Value0="..\GD32F103CB_Code" />
-    <Parameter Name="P1" Value0="..\GD32F103CB_Code\CommHead" />
-    <Parameter Name="P2" Value0="..\GD32F103CB_Code\CommHead\CMSIS" />
-    <Parameter Name="P3" Value0="..\GD32F103CB_Code\CommHead\Peripheral" />
-    <Parameter Name="P4" Value0="..\GD32F103CB_Code\CommHead\USB" />
-    <Parameter Name="P5" Value0="..\..\..\MyCodeLib" />
+    <Parameter Name="P0" Value0="True" Value1="..\GD32F103CB_Code" />
+    <Parameter Name="P1" Value0="True" Value1="..\GD32F103CB_Code\CommHead" />
+    <Parameter Name="P2" Value0="True" Value1="..\GD32F103CB_Code\CommHead\CMSIS" />
+    <Parameter Name="P3" Value0="True" Value1="..\GD32F103CB_Code\CommHead\Peripheral" />
+    <Parameter Name="P4" Value0="True" Value1="..\GD32F103CB_Code\CommHead\USB" />
+    <Parameter Name="P5" Value0="True" Value1="..\..\..\MyCodeLib" />
   </File_H>
   <Path_DGV_Path>
     <Parameter Name="P0" Value0=".\bin" />
